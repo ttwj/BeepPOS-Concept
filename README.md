@@ -30,5 +30,6 @@ If you wanted to accept EZ-Link Payments, it would be faster if you find an appr
 These providers also accept more payment options (Credit Cards, NETS FlashPay, etc.), will be better for your business!
 
 
-For this educational implementation, we used EZ-Link M-Payment (https://www.ezlink.com.sg/2017/10/ez-link-now-an-accepted-mode-of-payment-on-obike-mobile-application)
-You should purchase the CEPAS specifications from SPRING Singapore, www.singaporestandardseshop.sg, to get a better understanding of the CEPAS transaction process as well.
+- For this educational implementation, we used EZ-Link M-Payment (https://www.ezlink.com.sg/2017/10/ez-link-now-an-accepted-mode-of-payment-on-obike-mobile-application)
+
+- You should purchase the CEPAS specifications from SPRING Singapore, www.singaporestandardseshop.sg, to get a better understanding of the CEPAS transaction process as well.
