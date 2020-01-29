@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/navigation_drawer"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@drawable/navigation_text_selector"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/navigation_drawer_primary_textview"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_height="match_parent" />
+</LinearLayout>

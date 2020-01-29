@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/session_posscreen_relative_layout_master"
+    tools:context="com.beep.beepposconcept.SessionMainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/session_pos_fragment_my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_marginBottom="16dp"/>
+
+    <RelativeLayout
+        android:layout_below="@id/session_pos_fragment_my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textSize="30sp"
+            android:layout_margin="30dp"
+            android:id="@+id/session_posscreen_price_to_charge_text_view"
+            android:gravity="center" />
+
+        <GridView
+            android:layout_width="match_parent"
+            android:id="@+id/session_posscreen_buttons_gridview"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/session_posscreen_price_to_charge_text_view">
+        </GridView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/session_posscreen_buttons_gridview"
+            android:gravity="center"
+            android:text="Charge"
+            android:id="@+id/session_posscreen_button_to_charge"/>
+        <!--
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/session_posscreen_buttons_gridview"
+            android:gravity="center"
+            android:text="Charge with Bluetooth"
+            android:id="@+id/session_posscreen_button_to_charge_bluetooth"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/session_posscreen_buttons_gridview"
+            android:gravity="center"
+            android:text="Charge"
+            android:id="@+id/session_posscreen_button_to_pair_bluetooth"/>
+            -->
+    </RelativeLayout>
+
+</RelativeLayout>
+

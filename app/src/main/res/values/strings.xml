@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BeepPOSConcept</string>
+
+    <!-- LogIn Activity Strings-->
+    <string name="log_in_user_name">Username:</string>
+    <string name="log_in_merchant_id">Merchant ID:</string>
+    <string name="log_in_password">Password:</string>
+    <string name="log_in_button">Log In</string>
+
+
+    <!-- Navigation Drawer Strings-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/primary_welcome_username_textfield"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="#6ec452"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/primary_welcome_username_connect_prompt_textfield"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="To Start POS Service, Please Connect With Bluetooth Reader"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/primary_welcome_connect_to_bluetooth_icon"
+        android:src="@drawable/ic_bluetooth_searching_black_100dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/primary_welcome_read_card_button"
+        android:textSize="10sp"
+        android:text="Read Card"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/primary_welcome_pair_button"
+        android:textSize="20sp"
+        android:text="Pair"/>
+
+
+
+
+    </FrameLayout>
+
+</LinearLayout>
